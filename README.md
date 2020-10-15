@@ -25,4 +25,4 @@ and Insert one data
 
 run server 2 and run main.go 
 
-Before access server 2 must generate token
+Before access server 1 or 2 must generate token
