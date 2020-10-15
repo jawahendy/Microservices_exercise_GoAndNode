@@ -10,6 +10,8 @@ main.go Controller access in postman
 
 before start  sample main > Server 2
 must npm i and createdb db_nodejs and table 
+
+
 CREATE TABLE `customer_bank` (
   `customer_id` int(11) NOT NULL,
   `nama` varchar(50) NOT NULL,
@@ -18,6 +20,9 @@ CREATE TABLE `customer_bank` (
   `no_hp` varchar(15) DEFAULT NULL,
   `email` varchar(50) DEFAULT NULL
 )
+
 and Insert one data
 
-run server 2 and run main.go
+run server 2 and run main.go 
+
+Before access server 2 must generate token
